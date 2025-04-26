@@ -2,28 +2,33 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Home - Webcomic</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Interpreter</title>
   <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
   <nav>
-    <a href="index.html">Home</a>
-    <a href="comic.html">Comic</a>
+    <a href="index.html" class="active">Home</a>
+    <a href="archive.html">Archive</a>
     <a href="about.html">About</a>
   </nav>
   <main>
-    <h1>Welcome to My Webcomic! TEMPLATE!</h1>
-    <p>Follow along as I share my journey through storytelling and art.</p>
+    <h1> >_ <br> the interpreter</h1>
+    <p class="intro">
+      A webcomic exploring life through bugs, banter, and backhands.<br />
+    </p>
 
-    <h2>Want to see some of my favorite comics? See below!</h2>
-    <div class="favorite-comic">
-      <a href="https://www.peanuts.com/about/snoopy" target="_blank">
-        <img src="images/snoopy.avif" alt="Snoopy from Peanuts" class="featured-comic" />
-      </a>
+    <div class="comic-nav">
+      <a href="comics/boston-commons_04-20-25.html">&lt;&lt; Prev</a>
+      <a href="archive.html">Random</a>
+      <a href="comics/spikeball-04_25_25.html">Preview &gt;&gt;</a>
+    </div>
+
+    <div class="comic-container">
+      <img src="images/wifi-password_04-25-25.jpg" alt="Latest Comic" class="comic-page" />
+      <p class="comic-label">
+        <a href="comics/wifi-password_04-25-25.html">WiFi Password (Apr 25, 2025)</a>
+      </p>
     </div>
   </main>
 </body>
