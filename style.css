@@ -177,3 +177,52 @@ p {
 	text-decoration: underline;
   }
   
+  /* Contribute form styling */
+.contribute-form {
+	max-width: 600px;
+	margin: 2em auto;
+	padding: 1em;
+	background-color: var(--light-main);
+	border: 2px solid var(--dark-main);
+	border-radius: 8px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+  
+  .contribute-form label {
+	display: block;
+	margin-bottom: 0.5em;
+	font-weight: 600;
+	color: var(--dark-main);
+  }
+  
+  .contribute-form input,
+  .contribute-form textarea {
+	width: 100%;
+	padding: 0.75em;
+	margin-bottom: 1.2em;
+	font-size: 1em;
+	font-family: 'Inter', sans-serif;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	box-sizing: border-box;
+  }
+  
+  .contribute-form textarea {
+	resize: vertical;
+  }
+  
+  .contribute-form button {
+	background-color: var(--dark-main);
+	color: white;
+	font-size: 1em;
+	padding: 0.75em 1.5em;
+	border: none;
+	border-radius: 6px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+  }
+  
+  .contribute-form button:hover {
+	background-color: #1c2330;
+  }
